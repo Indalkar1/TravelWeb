@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font: 15px/1  Arial, Helvetica, sans-serif ;
+    background-image: url('../images/bg/bg3.jpg');
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+ ul{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* header*/
+header a:hover{
+    font-weight: bold;
+    color:cornflowerblue;
+}
+header .current a{
+    color:rgb(193, 223, 25);
+    font-weight: bolder;
+    text-transform: uppercase;
+} 
+.highlights{
+    color: dimgray;
+    font-weight: bold;
+}
+header{
+    
+    font: 50px bold hel Cambria, Cochin, Georgia, Times, 'Times New Roman', serifvetica;
+    text-transform: capitalize;
+    background-color: rgb(49, 43, 43); 
+    color: whitesmoke;
+    padding:20px;
+}
+header #branding h1{
+    float: left;
+    font-size: 50PX;
+    margin-top: 20px;
+    word-spacing: 0.3em;
+    text-shadow: 2px 2px 4px #363333; 
+}
+header nav{
+    float: right;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px ;
+    margin-top: 40px;
+}
+header a{
+    color: honeydew;
+    font-size:13px;
+    text-decoration: none;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+#heading{
+    padding: 10px;
+    font-size: 40px;
+}
+/* center*/
+.envelop{
+    background-image: url('../images/envelop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 50%;
+}
+.envelop{
+    float: left;
+    margin: 100px 10px 50px 300px;
+    padding: 30px 20px 0 30px;
+    box-sizing: border-box;
+   
+}
+.envelop h3{
+    margin-top: 50px;
+    font:30px  italic  hel Cambria, Cochin, Georgia, Times;
+    
+}
+.envelop p{
+    text-align:justify;
+}
+.btn{
+    background-color: black;
+    opacity: 0.5;
+    border-style: none;
+    color: whitesmoke;
+    width: 190px;
+    height: 50px;
+    margin-top: 10px;
+}
+.btn-1{
+    width: 80px;
+    height: 50px;
+    border-style: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+/* links*/
+.side{
+    margin:0;
+    padding: 0 0 0 30px;
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+
+}
+.side h4{
+    font-size: 20px;
+}
+.side li {
+    list-style: none;
+    padding: 5px;
+}
+.side a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:#495f75;
+}
+/* payment*/
+.credit{
+    margin-top: 40%;
+    color:snow;
+    padding:40px 50px;
+    color: black;  
+    background-color:rgb(69, 79, 82);
+}
+#pay {
+    font:30px bolder Monaco;
+    color: black;
+    padding-bottom: 5px;
+}
+.credit p{
+    font:20px bolder  Monaco;
+    color: rgb(247, 245, 242);
+}
+#destination{
+    border-style:none;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    font:larger bolder  Monaco;
+    background-color: rgb(252, 248, 248);
+}
+#fname{
+    border-style:none;
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    font:larger bolder  Monaco;
+    background-color: rgb(252, 248, 248);   
+   
+}
+.payment-1{
+    border-style:none;
+    width: 150px;
+    height:50px;
+    background: transparent;
+    background-color: rgb(252, 248, 248);
+    
+}
+.button{
+    border-style:none;
+    width: 150px;
+    height:56px;
+    background-color: rgb(49, 47, 47);
+    color: whitesmoke;
+    font:larger bolder  hel Cambria, Cochin, Georgia, Times;
+    text-transform: uppercase;
+}
+/* footer*/
+.last{
+    margin-top: 0px;
+    background-image: url('../images/bg/bg6.jpg'); 
+    color: whitesmoke;
+    padding:100px;
+}
+.last h4{
+    margin-bottom: 30px;
+    text-align: center;
+    font: 20px bold  Monaco;
+}
+.last h3{
+    text-align: center;
+    font: 30px bold  Monaco;
+    padding: 10px;
+}
+.last p{
+    text-align: center;
+    padding-top:50px;
+    margin-bottom: 10px;
+    font: 15px bold  Courier New;
+}
+.follow {
+    display: flex;
+    justify-content: center;
+}
+.follow img{
+      width: 50px;
+      height: 30px;
+      margin-bottom: 40px;
+      border-radius: 50%;
+} 

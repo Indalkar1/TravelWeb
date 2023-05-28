@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font: 15px/1  Arial, Helvetica, sans-serif ;
+    background-color:  #cbd3dd ;
+    
+}
+ul{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* header*/
+header a:hover{
+    font-weight: bold;
+    color:cornflowerblue;
+}
+header .current a{
+    color:rgb(193, 223, 25);
+    font-weight: bolder;
+    text-transform: uppercase;
+} 
+.highlights{
+    color: dimgray;
+    font-weight: bold;
+}
+header{
+    font: 50px bold hel Cambria, Cochin, Georgia, Times, 'Times New Roman', serifvetica;
+    text-transform: capitalize;
+    background-color: rgb(49, 43, 43); 
+    color: whitesmoke;
+    padding:20px;
+}
+header #branding h1{
+    float: left;
+    font-size: 50PX;
+    margin-top: 20px;
+    word-spacing: 0.3em;
+    text-shadow: 2px 2px 4px #363333; 
+}
+header nav{
+    float: right;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px ;
+    margin-top: 40px;
+}
+header a{
+    color: honeydew;
+    font-size:13px;
+    text-decoration: none;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+#heading{
+    padding: 10px;
+    font-size: 40px;
+}
+/* flex*/
+.flex1{
+    display: flex;
+   
+}
+.b1{
+    flex:1;
+    order:2;
+    width: 400px;
+    height:300px;
+    
+}
+.b1:hover{
+    width:450px;
+    height: 350px;
+}
+.b2:hover{
+    width:450px;
+    height: 350px;
+}
+.flex2 .b3:hover{
+    width:450px;
+    height: 350px;
+}
+.b2{
+    flex:1;
+    order:1;
+    width: 300px;
+    height:300px;  
+}
+.flex2{
+    display: flex;
+}
+.flex2 .b3{
+    flex:2;
+    order:1;
+    width: 400px;
+    height:300px;
+}
+.flex2 .b4{
+    flex:1;
+    order:2;
+    width: 400px;
+    height:300px;
+}
+.flex2 .b4{
+    margin: 90px 20px 0px 20px;
+    font:26px bold Lucida Console;
+    text-align: center;
+}
+.below{
+    margin:0;
+}
+.below h1{
+    text-align: center;
+    font:50px bold Comic Sans MS;
+    background-color: slategray;
+    padding: 10px;
+    letter-spacing: 0.2em;
+}
+.below p{
+    font:23px italic hel Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-align: center;
+    padding: 20px;
+}
+/* quotes*/
+.quotes{
+    padding: 0 30% ;
+    font:23px bold  Lucida Console;
+    font-weight: bolder;
+    word-spacing: 0.3em;
+    letter-spacing: 0.05em;
+    text-align: justify;
+}
+.quotes h5{
+    text-align: center;
+    font-weight: normal;
+    font-size: smaller;
+    padding-top: 4px;
+}
+/* footer*/
+.last{
+    margin-top: 30px;
+    background-image: url('../images/bg/bg6.jpg'); 
+    color: whitesmoke;
+    padding:100px;
+}
+.last h4{
+    margin-bottom: 30px;
+    text-align: center;
+    font: 20px bold  Monaco;
+}
+.last h3{
+    text-align: center;
+    font: 30px bold  Monaco;
+    padding: 10px;
+}
+.last p{
+    text-align: center;
+    padding-top:50px;
+    margin-bottom: 10px;
+    font: 15px bold  Courier New;
+}
+.follow {
+    display: flex;
+    justify-content: center;
+}
+.follow img{
+      width: 50px;
+      height: 30px;
+      margin-bottom: 40px;
+      border-radius: 50%;
+} 
